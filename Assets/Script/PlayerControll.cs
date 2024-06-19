@@ -20,7 +20,6 @@ public class PlayerControll : MonoBehaviour
     void Update()
     {
         Vector3 forward = transform.TransformDirection(Vector3.forward);
-        // animator.SetBool("Left", true);
         Vector3 right = transform.TransformDirection(Vector3.right);
         float curSpeedX = speed * Input.GetAxis("Vertical");
         float curSpeedY = speed * Input.GetAxis("Horizontal");
