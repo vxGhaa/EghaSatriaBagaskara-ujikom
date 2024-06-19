@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class SpawnMove : MonoBehaviour
 {
+
     public float Speed;
     void Update()
     {
