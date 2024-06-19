@@ -25,5 +25,6 @@ public class Spawner : MonoBehaviour
         GameObject animal = Instantiate(ObjectsPrefab[objectindex], spawnPos, ObjectsPrefab[0].transform.rotation);
 
         Destroy(animal, _lifetime);
+
     }
 }
