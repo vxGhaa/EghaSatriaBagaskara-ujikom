@@ -11,6 +11,7 @@ public class ShootFood : MonoBehaviour
         {
             GameObject food = Instantiate(Food, transform.position, Food.transform.rotation);
             Destroy(food, 3f);
+
         }
     }
 }
